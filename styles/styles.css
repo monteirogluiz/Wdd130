@@ -2,8 +2,6 @@
     --primary-color: darkblue;
     --border-color: #000;
     --shadow-color: gray;
-    --aside-background: #eee;
-    --aside-text: #333;
 }
 
 * {
@@ -53,11 +51,6 @@ main img {
 aside {
     position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: var(--aside-background);
-    color: var(--aside-text);
     text-align: center;
 }
 
@@ -68,12 +61,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 25px;
-    left: 25px;
-    right: 25px;
-    background-color: rgb(0 0 0 / 0.6);
-    color: white;
-    padding: 10px;
+    top: 47px;
+    left: 150px;
 }
 
 footer {
@@ -86,8 +75,8 @@ footer {
 
 .box {
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: #ddd;
+    color: #000;
 }
