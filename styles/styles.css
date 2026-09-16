@@ -47,6 +47,9 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid var(--border-color);
+    padding: 2px;
+    box-shadow: 0 0 30px var(--shadow-color);
     float: right;
     margin: 0 0 15px 15px;
 }
@@ -54,6 +57,11 @@ main img {
 aside {
     position: relative;
     width: 20rem;
+    margin: 1rem;
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
     text-align: center;
 }
 
